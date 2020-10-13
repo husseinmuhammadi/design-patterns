@@ -19,11 +19,10 @@ import static org.assertj.core.util.DateUtil.tomorrow;
 import static org.assertj.core.util.DateUtil.yesterday;
 
 class ProductTest {
-
     private static final Logger LOGGER = LoggerFactory.getLogger(ProductTest.class);
 
     @Test
-    void name() throws ParseException {
+    void whenCreateWithProductBuilder_thenAllFieldsShouldBeTheSame() throws ParseException {
         DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
         Product product = new Product.Builder("Nail")
                 .orderDate(dateFormat.parse("2019-10-13"))
