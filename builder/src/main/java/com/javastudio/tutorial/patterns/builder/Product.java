@@ -11,10 +11,10 @@ public class Product {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(Product.class);
 
-    private String name; // required
-    private Date expirationDate; // optional
-    private Date orderDate; // optional
-    private double price; // optional
+    private final String name; // required
+    private final Date expirationDate; // optional
+    private final Date orderDate; // optional
+    private final double price; // optional
 
     private Product(Builder builder) {
         this.name = builder.name;
@@ -27,32 +27,16 @@ public class Product {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public Date getExpirationDate() {
         return expirationDate;
-    }
-
-    public void setExpirationDate(Date expirationDate) {
-        this.expirationDate = expirationDate;
     }
 
     public double getPrice() {
         return price;
     }
 
-    public void setPrice(double price) {
-        this.price = price;
-    }
-
     public Date getOrderDate() {
         return orderDate;
-    }
-
-    public void setOrderDate(Date orderDate) {
-        this.orderDate = orderDate;
     }
 
     @Override
