@@ -1,4 +1,4 @@
-package com.javastudio.tutorial.patterns.builder;
+package com.javastudio.tutorial.builder;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
