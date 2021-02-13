@@ -12,6 +12,7 @@
     <modules>
         <module>builder</module>
         <module>observer</module>
+        <module>proxy</module>
     </modules>
 
     <properties>
