@@ -1,2 +1,10 @@
-package com.javastudio.tutorial.patterns;public class PatterTest {
+package com.javastudio.tutorial.patterns;
+
+import org.junit.jupiter.api.Test;
+
+public class PatterTest {
+    @Test
+    void name() {
+
+    }
 }

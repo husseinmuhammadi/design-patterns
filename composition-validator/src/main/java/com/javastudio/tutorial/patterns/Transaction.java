@@ -1,2 +1,4 @@
-package com.javastudio.tutorial.patterns;public class Transaction {
+package com.javastudio.tutorial.patterns;
+
+public class Transaction {
 }

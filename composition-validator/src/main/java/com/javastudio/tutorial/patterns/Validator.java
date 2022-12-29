@@ -1,2 +1,5 @@
-package com.javastudio.tutorial.patterns;public class Validator {
+package com.javastudio.tutorial.patterns;
+
+public interface Validator<T> {
+    void validate(T t);
 }
